@@ -97,3 +97,29 @@ Follow these steps to set up and run the project locally.
 ```bash
 git clone [https://github.com/merveAiseoglu/ai-emotion-alignment-pipeline.git](https://github.com/merveAiseoglu/ai-emotion-alignment-pipeline.git)
 cd ai-emotion-alignment-pipeline
+ ```
+
+### **2.Install Dependencies**
+Ensure you have Python installed, then run:
+```bash
+pip install -r requirements.txt
+```
+### **3.Set Up Environment Variables**
+Create a .env file in the root directory to store your API keys securely.
+Note: You need an OpenAI API key and a TMDB API Key.
+.env file content:
+```bash
+OPENAI_API_KEY="sk-proj-..."
+TMDB_API_KEY="your_tmdb_key_here"
+```
+### **4. Launch the Application**
+Start the Streamlit interface:
+```bash
+streamlit run main.py
+```
+
+
+
+
+
+
