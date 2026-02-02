@@ -105,9 +105,9 @@ Ensure you have Python installed, then run:
 pip install -r requirements.txt
 ```
 ### **3.Set Up Environment Variables**
-Create a .env file in the root directory to store your API keys securely.
-Note: You need an OpenAI API key and a TMDB API Key.
-.env file content:
+*Create a .env file in the root directory to store your API keys securely.
+*Note: You need an OpenAI API key and a TMDB API Key.
+*.env file content:
 ```bash
 OPENAI_API_KEY="sk-proj-..."
 TMDB_API_KEY="your_tmdb_key_here"
