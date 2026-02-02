@@ -89,29 +89,11 @@ Building this project highlighted several core AI Engineering concepts:
 
 This project serves as a proof-of-concept for **Self-Reflective AI Systems**. It demonstrates the ability to move beyond simple chatbots and build structured, verifiable, and measurable AI workflows, which is a critical requirement for production-grade LLM applications.
 
-1. Clone the Repository
-Bash
-git clone https://github.com/merveAiseoglu/ai-emotion-alignment-pipeline.git
+## 🏃‍♂️ How to Run
+
+Follow these steps to set up and run the project locally.
+
+### **1. Clone the Repository**
+```bash
+git clone [https://github.com/merveAiseoglu/ai-emotion-alignment-pipeline.git](https://github.com/merveAiseoglu/ai-emotion-alignment-pipeline.git)
 cd ai-emotion-alignment-pipeline
-2. Install Dependencies
-Ensure you have Python installed, then run:
-
-Bash
-pip install -r requirements.txt
-3. Set Up Environment Variables
-Create a .env file in the root directory to store your API keys securely.
-
-Note: You need an OpenAI API key and a TMDB API Key.
-
-.env file content:
-
-Kod snippet'i
-OPENAI_API_KEY="sk-proj-..."
-TMDB_API_KEY="your_tmdb_key_here"
-4. Launch the Application
-Start the Streamlit interface:
-
-Bash
-streamlit run main.py
-
-The app will automatically open in your default web browser at http://localhost:8501.
