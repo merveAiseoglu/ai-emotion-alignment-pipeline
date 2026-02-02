@@ -2,7 +2,7 @@
 
 **An automated LLM pipeline that generates creative content and quantitatively evaluates emotional consistency using an LLM-as-a-Judge approach.**
 
-![AI Emotion Alignment Pipeline Screenshot](./assets/pipeline.png)
+![AI Emotion Alignment Pipeline Screenshot](assets/pipeline.png)
 > *Figure 1: The pipeline interface showing the generation (Step 1), evaluation logic (Step 2), and the final alignment score.*
 
 ---
