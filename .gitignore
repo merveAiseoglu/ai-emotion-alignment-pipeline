@@ -1,0 +1,7 @@
+# .gitignore dosyası içeriği
+.env
+__pycache__/
+*.pyc
+.DS_Store
+old_backup/
+venv/
